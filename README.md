@@ -1,8 +1,16 @@
-BUILD DOCKER IMAGE:
+# Ansible lab
+
+##### BUILD DOCKER IMAGE:
+```bash
 docker build -t ansible/centos-ssh:8 .
+```
 
-RUN THE DOCKER IMAGE:
+##### RUN THE DOCKER IMAGE:
+```bash
 docker run -t -d -P -v /Users/akhemmanivong/akhemmanivong/ansible-lab/ansible:/ansible ansible/centos-ssh:8
+```
 
-RUN ANSIBLE SETUP:
+##### RUN ANSIBLE SETUP:
+```bash
 ./setup_ansible.sh
+```
