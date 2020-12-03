@@ -1,0 +1,9 @@
+[all]
+ansible_worker_1 ansible_host=172.17.0.9 
+ansible_worker_2 ansible_host=172.17.0.8 
+ansible_worker_3 ansible_host=172.17.0.7 
+ansible_worker_4 ansible_host=172.17.0.6 
+ansible_worker_5 ansible_host=172.17.0.5 
+ansible_worker_6 ansible_host=172.17.0.4 
+ansible_worker_7 ansible_host=172.17.0.3 
+ansible_worker_8 ansible_host=172.17.0.2 
